@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.portfolio{
+    height: auto;
+    width: 100%;
+    background-color: #1471AF;
+
+}
+
+.Navbar{
+    height: 70px;
+    width: 100%;
+    margin: auto;
+    position: sticky;
+    top: 0;
+    background-color: #060606;
+   
+
+}
+
+.Navbar a1{
+    font-weight: 600;
+    font-family: neue-haas-grotesk-display;
+
+}
+.navdiv1{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+
+}
+.ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px;
+}
+.ul li{
+    list-style: none;
+    
+}
+
+.Navbar a{
+    color:white;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.card{
+    height: auto;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-family:neue-haas-grotesk-display;
+    color: white;
+    margin: auto;
+    gap: 50px;
+    margin-top: 60px;
+    background-color: #1471AF; 
+   
+ }
+#a1{
+    font-size: 30px;
+    
+}
+.card img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    
+}
+
+#h1{
+    font-size: 40px;
+} 
+
+ .art{
+    height: 200px;
+    width: 100%;  
+    color: #FFFFFF; 
+}
+.sp1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    gap: 100px;
+    font-size: 20px;
+
+}
+.art hr{
+    width: 900px;
+}
+
+
+.art1{
+    height: auto;
+    width: 100%;
+    color: #FFFFFF;
+
+}
+
+.sp2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    gap: 200px;
+    font-size: 17px;
+
+}
+
+.art1 hr{
+    width: 200px;
+}
+
+.art1{
+    height: auto;
+    width: 60%;
+
+} 
+
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.contactdiv{
+    height: 700px;
+    width: 600px;
+    color: #FFFFFF;
+    margin: 10%;
+
+}
+.contactdiv h1{
+    font-size: 44px;
+}
+
+.contactdiv a{
+    color: #FFFFFF;
+    font-size: 17px;
+}
+
+.contactdiv2{
+    height: 700px;
+    width: 600px;
+    color: #FFFFFF;
+    font-size: 20px;
+
+
+}
+
+#email,#name,#message{
+    background-color: #FFFFFF;
+    font-size: 18px;
+    color: black;
+
+}
+
+.contactdiv2 button{
+    height: 50px;
+    width: 100px;
+    background-color: #FFFFFF;
+    font-size: 18px;
+}
+
+h1{
+    color: #FFFFFF;
+    font-size: 40px;
+}
+h2{
+    color: #FFFFFF;
+    font-size: 30px;
+
+}
+.divproject1{
+    color: #FFFFFF;
+  
+}
+.divproject2{
+    color: #FFFFFF;
+}
+.projectsec1{
+    height: auto;
+    width: 80%;
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 10%;
+    font-size: 17px;
+}
+
+.resumesec1{
+    color: #FFFFFF;
+    font-size: 17px;
+}
+.resumediv1{
+    height: 100vh;
+    width: 60%;
+}
+
+.ulresume{
+    display: flex;
+    align-items: center;
+    justify-content: space-around ;
+    flex-wrap: wrap;
+
+}
+.ulresume li,a{
+    list-style: none;
+    gap: 10px;
+    color: #FFFFFF;
+    font-size: 17px;
+}
+
+.resumefooter h3{
+    color: #FFFFFF;
+    margin-left: 700px;
+}
+
+
+
+
+.art1{
+    width: 100%;
+    background-color: #3d3d3d;
+    color: white;
+}
+
+.divsec,.div1 {
+    align-items: center;
+    display: flex;
+}
+.divsec {
+    background-color: #3d3d3d;
+    flex-wrap: wrap;
+    gap: 10px;
+    height: auto;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    width: 100%;
+}
+.divsec .div1 {
+    background: gray;
+    border: 1px solid #000;
+    color: #fff;
+    height: 70px;
+    justify-content: center;
+    width: 350px;
+}
+.divsec ruby rt {
+    font-size: 17px;
+    font-weight: 100;
+}
+
+
+.Footer{
+    background-color: #000;
+    color: #f5f5f5;
+    gap: 30px;
+    height: 300px;
+
+}
+
+.divfoot2, .Footer {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.divfoot1 p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.divfoot2 {
+    width: 500px;
+}
+
+.divfoot2 h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.divfoot2 h2 button {
+    background: grey;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.divfoot2 h2 button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footart {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    font-weight: 400;
+    
+}
+
+#i1{
+    color: #f5f5f5;
+}
